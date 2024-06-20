@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 import Orders from "./components/orders/Orders";
 
 const App = () => {
-  const backend_URL = "http://localhost:4000";
+  const backend_URL = "https://clothesapp-backend.onrender.com";
 
   return (
     <div>
