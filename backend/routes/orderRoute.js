@@ -8,7 +8,7 @@ const orderRouter = express.Router();
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 orderRouter.post("/place", authMiddleware, async (req, res) => {
-  const frontend_url = "http://localhost:3000";
+  const frontend_url = "https://clothesapp-frontend.onrender.com";
   try {
     const newOrder = new Order({
       userId: req.body.userId,
