@@ -4,7 +4,7 @@ import MyContext from "./MyContext";
 import { useEffect, useState } from "react";
 
 const MyState = ({ children }) => {
-  const backend_URL = "http://localhost:4000";
+  const backend_URL = "https://clothesapp-backend.onrender.com";
   const [token, setToken] = useState("");
 
   const [cartItems, setCartItems] = useState({});
