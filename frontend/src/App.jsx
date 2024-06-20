@@ -15,7 +15,7 @@ import PlaceOrder from "./pages/placeOrder/PlaceOrder";
 import MyOrders from "./pages/myOrders/MyOrders";
 
 const App = () => {
-  const backend_URL = "http://localhost:4000";
+  const backend_URL = "https://clothesapp-backend.onrender.com";
   return (
     <div>
       <BrowserRouter>
